@@ -78,11 +78,7 @@ public class PageHome {
 					colorsIdem++; 
 	    		}
 	    	}
-	    	if (colorsIdem == numAux) {
-	    	colorCoincidence = true;
-	    		} else { 
-	    		colorCoincidence = false;
-	    		}    		
+	    	colorCoincidence = colorsIdem == numAux ? true : false; 		
     	}
     public boolean colorCoincidence() {return colorCoincidence;}
     public List<WebElement> capture () {return capture;}
